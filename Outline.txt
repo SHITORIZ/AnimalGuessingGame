@@ -1,0 +1,33 @@
+--------------------------------Decomposition Outline----------------------------------------------------------
+
+Data Structure:Binary Tree(linked List)
+
+OpenDatabaseFile() 
+//GetFile will open up a file that is specified.  If that file does not exist it will create that file.
+
+UpdateDatabase()
+//UpdateDatabase will update the database after each game based on the new updated binary tree(linked List)
+
+Readline()
+//Readline will read a line in the database file and return that line
+
+strsep()
+//strsep will find and return a token based on deliminary.
+
+CreateNode()
+//CreateNode will create a new linked list node and return that node
+
+InsertNode()
+//InsertNode will insert the newly created linked list node where It needs to be.  Will also assign and re-asign pointers of current and surrounding nodes acccording. 
+
+GameOutput()
+//GameOutput will be the function that actually prints out to the command line based on where the game is at in the tree
+
+PlayersInput()
+//UserInput will be getting players input from command line and returning what they enter.
+
+PlayGame()
+//Play game is broad and not sure exactly yet but will have to implement a main function that traverses through the linked list accordingly, based on how the game goes and  will depend on what functions will be called within this function.  This function will basically be the main function that is calling the other functions so expected to be the largest.
+
+Additional Information:
+Each function will be handling its own errors.  For example PlayersInput() will be handling the error where the player enters a empty string etc..
